@@ -1,0 +1,528 @@
+html{
+    overflow-x: hidden;
+    
+}
+body{
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;   
+
+}
+header {
+width: 100%;
+height: 103px;
+background: url("https://www.salvatumatrimonioparasiempre.com/wp-content/uploads/2019/02/fondo-corazones-min-1-1.png") !important;
+background-attachment: fixed;
+background-color: rgb(29, 144, 140) !important;
+display: flex;
+justify-content: center;
+}
+.contenedor-header{
+    display: block;
+   
+}
+header img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 12%;
+}
+.pie-header img{
+    width: 44%;
+    display: block;
+}
+main{  
+    background-color: #ffffff;
+    width: 42%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.init h1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 25px;
+    margin-block-start: 0%;
+}
+.init h2{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
+.card{
+    box-shadow: rgba(11, 216, 90, 0.3) 0px 1px 2px 0px, rgba(15, 221, 32, 0.842) 0px 1px 3px 1px;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
+.card i{
+    padding: 13px 10px;
+    text-align: center;
+    
+}
+.init .card-name{
+    text-align: right;
+}
+.contenedor-init{
+    text-align: justify;
+    padding: 0 40px;
+}
+.check{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 40px;
+}
+.check h2{
+    font-size: 30px;
+    text-align: center;
+}
+.check i{
+    padding: 5px;
+}
+.check .fa-check-circle{
+    color: #5cdd50;
+    font-size: 24px;
+}
+.second{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 40px;
+    text-align: justify;
+}
+.second h2{
+    color: red;
+    text-align: center;
+}
+.second img{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.second .red{
+    font-size: 40px;
+}
+.matrimonio .blue{
+    color: rgb(0, 0, 255);
+}
+.matrimonio h2{
+    color: black;
+    font-size: 24px;
+}
+.coments{
+    padding: 20px 90px;
+}
+.coments span{
+    color: red;
+    font-weight: bold;
+}
+.important{
+    font-size: 14px;
+}
+.important h2{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
+.coments .center{
+    text-align: center;
+    color: rgb(9, 16, 255) ; 
+    font-weight: bold;
+}
+.history{
+    margin: 0 auto;
+    padding: 0 40px;
+    padding: 20;
+    text-align: justify;
+}
+.history h2{
+    text-align: center;
+}
+.history-contenedor{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    flex-wrap: nowrap;
+}
+.history-img{
+    width: 100%;
+    display: flex;
+}
+.history-img img{
+    width: 200px;
+}
+.autora img{
+    width: 150px;
+}
+.tachado{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 40px;
+    text-align: justify;
+}
+.tachado .fa-times-circle{
+    color: red;
+    padding: 6px;
+    font-size: 22px;
+}
+.patrones{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 40px;
+    text-align: justify; 
+}
+.patrones h2{
+    text-align: center;
+    color: red;
+    font-size: 25px;
+}
+.patrones h3{
+    text-align: center;
+}
+.contenedor-campos{
+    width: 100%;
+    text-align: justify;
+}
+.contenedor-resalt{
+    background-color: rgb(29, 144, 140);
+    color: #ffffff;
+    width: 95%;
+    margin: 0 auto;
+}
+.contenedor-resalt h2{
+    text-align: center;
+}
+.ancho img{
+    width: 300px;
+}
+.metodos{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 40px;
+    text-align: justify; 
+}
+.metodos-init{
+    text-align: center;
+}
+.metodos-init h3{
+    font-size: 30px;
+    color: red;
+    animation: latido;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+}
+.metodos img{
+    width: 80%;
+    padding: 20px 50px; 
+}
+.check-person{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 40px;
+    text-align: justify;
+}
+.check-person .fa-user-check{
+    color: #5cdd50;
+    padding-right: 8px;
+    padding-left: 40px;
+   font-size: 22px;
+}
+.testimonio{
+    width: 90%;
+    position: relative;
+    margin: 70px auto;
+}
+.testimonio-info{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    padding: 40px 20px; 
+}
+.testimonio-pie{
+    overflow: hidden;
+    background-color: rgb(29, 144, 140);
+    width: 50%;
+    padding-right: 60px;
+    height: 4rem;
+    position: absolute;
+    top: 90%;
+    left: 0;
+    display: flex;
+}
+.testimonio-img img{
+    height: 100%;
+}
+.testimonio-person{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.section h2{
+    color: black;
+    font-size: 20px;
+}
+.documentacion h2{
+    color: black;
+}
+.presentacion h2{
+    color: black;
+}
+.presentacion .principal{
+    color: rgb(29, 144, 140);
+}
+.pagos{
+    width: 100%;
+    text-align: justify;
+}
+.red{
+    color: red;
+}
+.pagos button{
+    width: 80%;
+    font-size: 35px;
+    padding: 15px;
+    margin-left: 10%;
+    background-color:  rgb(254, 214, 24) ;
+    border-radius: 15px;
+    border: 1px solid rgb(254, 214, 24) ;
+}
+.pagos button:hover{
+    background-color: #5cdd50;
+    animation: latido;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+    border: 1px solid #5cdd50;
+}
+@keyframes latido {
+    0% {transform:scale(1);}
+    50%{ transform: scale(1.1);}
+    100% {transform: scale(1);}
+}
+.pagos-svg{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 0;
+}
+.visa{
+    padding: 12px 10px ;
+    height: 20px;
+    width: 4em;
+    background-color: #3554A5;
+    border-radius: 3px;
+}
+.master{
+    border-radius: 3px;
+    width: 4em;
+}
+.amex{
+    width: 4em;
+}
+.paypal{
+    background-color: #F3F3F3;
+    padding: 12px 10px;
+    width: 4em;
+    border-radius: 3px;
+    height: 20px;
+}
+
+.pagos  .pagos-text{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 40px;
+    text-align: justify;
+}
+.pagos .center{
+    text-align: center;
+}
+.bonos .contenedor-resalt{
+    background-color: red;
+}
+.bonos h2{
+    padding: 20px;
+}
+.bonos .titulo{
+    text-align: center;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.book img{
+    width: 95%;
+}
+.precio{
+    text-align: center;
+}
+.precio h2{
+    font-size: 50px;
+    color: #5cdd50;
+    font-weight: bold;
+}
+.garantia{
+    position: absolute;
+    transform: translate(210px, -60px);
+}
+.garantia img{
+    width: 130px;
+}
+.contenedor-garantia{
+    border-style: solid;
+    border-color: #b4bcbc;
+    margin: 60px auto;
+    padding: 45px;
+}
+.mensajeria .history-img{
+    width: 50%;
+}
+.mensajeria .history-text{
+    width: 50%;
+}
+.mensajeria .contenedor-resalt{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.mensajeria input{
+    background-color: #0D0D0D78;
+    padding: 10px 5px;
+    margin: 10px 0;
+}
+.mensajeria ::placeholder{
+    color: #ffffff;
+}
+.mensajeria .mensaje{
+    height: 50px;
+    width: 70%;
+}
+.mensajeria button{
+    margin: 15px auto;
+}
+/*footer*/
+footer{
+    background-color: rgb(29, 144, 140);;
+}
+.contenedor-footer{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 42%;
+    color: #ffffff;
+    font-size: 10px;
+}
+.footer .center{
+    padding: 20px 0;
+    text-align: center;
+}
+.footer .bold{
+    font-weight: bold;    
+    text-align: center;
+    padding: 20px 0;
+    font-size: 15px;
+}
+/*Tablet*/
+@media (min-width: 765px) and (max-width: 1024px)  {
+  main{
+      width: 100%;
+      box-shadow: none;
+  }
+}
+/*phone*/
+@media (min-width: 319px) and (max-width: 767px)  {
+    header{
+       height: 171px; 
+        
+    }
+    .contenedor-header > img{
+        height: 150px;
+        width: 100%;
+        object-fit: contain;
+    }
+    .pie-header{
+        min-width: 320px;
+    }
+    .pie-header > img{
+        min-width: 320px;
+        height: 10px;
+        object-fit: contain;
+    }
+    main{
+        width: 100%;
+        box-shadow: none;
+    }
+    .init h1{
+        font-size: 18px;
+    }
+    h2{
+        font-size: 1em;
+    }
+    .history-contenedor{
+        flex-direction: column;
+        align-items: center;
+    }
+    .history-img img{
+        margin: 0 auto;
+    }
+    .pagos button{
+        font-size: 20px;
+    }
+    .visa{
+        height: 10px;
+        width: 2em;
+    }
+    .master{
+        border-radius: 3px;
+        width: 3em;
+    }
+    .amex{
+        width: 3em;
+    }
+    .paypal{
+        height: 10px;
+        width: 2em;
+    }
+    .red{
+        font-size: 5px;
+    }
+    .second{
+        padding: 0 28px;
+    }
+    .coments{
+        padding: 10px 20px;
+    }
+    .contenedor-footer{
+        width: 100%;
+        font-size: 10px;
+    }
+    .footer .bold{
+        padding: 0 auto;
+    }
+    .garantia{
+        position: absolute;
+        transform: translate(100px, -50px);
+    }
+    .garantia img{
+        width: 90px;
+    }
+    .contenedor-garantia{
+        padding: 30px 8px;
+        font-size: 15px;
+    }
+    .check-person{
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    .check-person .fa-user-check{
+        padding: 0 15px;
+    }
+    .buzon input{
+        background-color: #0D0D0D78;
+        padding: 10px 5px;
+        margin: 10px 0;
+    }
+}
+
